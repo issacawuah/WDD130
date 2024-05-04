@@ -1,0 +1,64 @@
+@import url('htpps://font.googlapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: #57d2e7;
+    --secondary-color: #023e8a;
+    --acent1-color: #006ba6;
+    --acent2-color: #ffafcc;
+
+    --heading-font: '------',seref;
+    --paragraph-font: '-----',seref;
+
+    --nav-background-color: #9fa5a4;
+    --nav-link-color: #c1d3fe
+    --nav-link-color: #001233
+    --nav-background-color: #8e9aaf
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--acent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
