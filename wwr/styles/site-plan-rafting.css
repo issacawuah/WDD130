@@ -7,10 +7,10 @@ body {
 }
 
 :root{
-    --primary-color: #57d2e7;
-    --secondary-color: #023e8a;
-    --acent1-color: #006ba6;
-    --acent2-color: #ffafcc;
+    --primary-color: #5603AD;
+    --secondary-color: #8367C7;
+    --acent1-color: #B3E9C7;
+    --acent2-color: #C2F8CB;
 
     --heading-font: '------',seref;
     --paragraph-font: '-----',seref;
