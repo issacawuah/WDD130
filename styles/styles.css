@@ -9,7 +9,7 @@
 .box { 
     width: 80%;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Fixed syntax */
+    border: 1px solid rgba(0, 0, 0, 0.1);  
     padding: 1rem;
     background-color: #e6e4f1;
     color: #dfe0bd;
@@ -58,7 +58,7 @@ main {
 .aside {
     width: 20em;
     text-align: center;
-    position: relative;
+    position: relative;  
     top: 47px;
     left: 150px;
 }
@@ -82,4 +82,10 @@ footer {
     margin-top: 50px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Added position for h2 inside aside */
+aside h2 {
+    position: absolute;
+   
 }
