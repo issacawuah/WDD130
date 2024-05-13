@@ -88,7 +88,10 @@ section p{
     width: 400px; 
     height: 400px;
     float: right;
-}  
+}   
+.happy h2{
+    text-align: right;
+}
 
 .adventure{  
     display: grid; 
