@@ -1,14 +1,15 @@
+ /* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* class selectors */
+/* Class selectors */
 .box { 
     width: 80%;
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Fixed syntax */
     padding: 1rem;
     background-color: #e6e4f1;
     color: #dfe0bd;
@@ -27,8 +28,9 @@ nav a {
 
 h2 {
     color: #101414;
-} 
-h1{
+}
+
+h1 {
     color: blueviolet; 
     text-align: center; 
     font-size: 30px; 
@@ -52,14 +54,16 @@ main {
     max-width: 840px;
 }
 
+/* Class selector corrected */
 .aside {
     width: 20em;
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 47px;
     left: 150px;
-} 
-aside p{
+}
+
+aside p {
     color: rgb(12, 12, 12);
 }
 
@@ -79,4 +83,3 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-
