@@ -93,6 +93,7 @@ header, footer, .grid {
 /* Added position for h2 inside aside */
 aside h2 {
     position: absolute;
+     
     
    
 } /* Reset */
@@ -188,6 +189,8 @@ main img {
 header, footer, .grid {
    max-width: 840px;
    margin: 0 auto;
+   border-top: 1px solid black;
+    padding-top: 10px;
 }
 
 /* Added position for h2 inside aside */
