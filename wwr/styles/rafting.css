@@ -84,18 +84,26 @@ section p{
     margin-left: 30px;
     
 }
-.happy img{ 
+.happy {
+    text-align: center;  
+}
+
+.happy img {
+    margin: 0.25rem auto;  
     width: 400px; 
     height: 400px;
-    float: right;
-}   
+    display: block;   
+    border-radius: 40px; 
+    border: 2px solid gold;
+}
+
 .happy h2{
     text-align: right;
 }
 
 .adventure{  
     display: grid; 
-    grid-template-columns: 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
     justify-content: center;  
     justify-items: center;
     gap: 30px; 
@@ -104,14 +112,32 @@ section p{
 } 
 
 .adventure img{
-    width: 550px; 
-    height: 550px;
+    width: 200px; 
+    height: 200px; 
+    border: 1px solid green; 
 } 
 
-footer{
-    background-color: black;
-} 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;  
+}
 
-footer p{
+.sociallinks {
+    display: flex;
+    
+}
+
+.sociallinks a img { 
+    width: 24px;  
+    height: auto; 
+    
+}
+
+footer p { 
     color: white;
+    margin: 0;
+    font-size: 14px;  
 }
