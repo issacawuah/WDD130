@@ -77,7 +77,7 @@ h2{
     margin-left: 30px;
 }
 section p{
-    margin-bottom: 350px; 
+    margin-bottom: 50px; 
     margin-left: 30px;
 } 
 .happy p{
@@ -101,21 +101,32 @@ section p{
     text-align: right;
 }
 
-.adventure{  
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
-    justify-content: center;  
-    justify-items: center;
-    gap: 30px; 
-    margin-top: 90px;
-    margin-bottom: 90px;
-} 
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; 
+}
 
-.adventure img{
-    width: 200px; 
-    height: 200px; 
-    border: 1px solid green; 
-} 
+.adventure figure { 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    margin-bottom: 70px;
+}
+
+.adventure img {
+    width:  230px;
+    height:  200px; 
+    display: block; 
+    border: 2px solid green;
+}
+
+.adventure figcaption {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
 
 footer {
     display: flex;
