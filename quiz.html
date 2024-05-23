@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<form>
+    <h1>Basic HTML and CSS Quiz</h1>
+    
+    <p>
+        What does the acronym CSS stand for?
+        <strong><span aria-label="Required">*</span></strong>
+        <input type="text" name="cssAcronym" required>
+    </p>
+
+    <p>
+        How are id and class attributes selected in CSS?
+        <strong><span aria-label="Required">*</span></strong>
+        <input class="cssSelection" type="text" name="cssSelection" required>
+        
+    </p>
+    
+    <p>
+        Which of the following is a valid CSS comment?
+        <strong><span aria-label="Required">*</span></strong>
+        <fieldset>
+            <select id="css-command" name="cssCommand" required>
+                <option value="" disabled selected>Choose One...</option>
+                <option value="wRITE HERE"><!-- comment --></option>
+                <option value="WRITE HERE">font-size</option>
+                <option value="WRITE HERE">margin</option>
+            </select>
+        </fieldset>
+    </p>
+    
+    <p>
+         What is the bottom margin given this declaration?
+        <strong><span aria-label="Required">*</span></strong> 
+        <h2>Margin: 10px 5px 15px;</h2>
+        <input type="text" name="bottomMargin" required>
+    </p>
+    
+    <p> 
+        <button type="submit">Submit Quiz</button> 
+    </p>
+</form>
+
+</body>
+</html>
