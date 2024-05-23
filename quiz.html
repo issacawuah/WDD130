@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Quiz html and CSS  Quiz | Awuah Isaac</title>
+    <title>Quiz html and CSS Quiz | Awuah Isaac</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Awuah Isaac">
     <meta name="description" content="Awuah Isaac, WDD 130, HTML and CSS quiz">
     <link rel="stylesheet" href="styles/quiz.css">
     <script src="main.js"></script>
@@ -15,37 +16,35 @@
     <h1>Basic HTML and CSS Quiz</h1>
     
     <p>
-        What does the acronym CSS stand for?
-        <strong><span aria-label="Required">*</span></strong>
-        <input type="text" name="cssAcronym" required>
+        <label for="cssAcronym">What does the acronym CSS stand for?<strong><span aria-label="Required">*</span></strong></label>
+        <input type="text" id="cssAcronym" name="cssAcronym" required>
     </p>
 
     <p>
-        How are id and class attributes selected in CSS?
-        <strong><span aria-label="Required">*</span></strong>
-        <input class="cssSelection" type="text" name="cssSelection" required>
-        
+        <label for="cssSelection">How are id and class attributes selected in CSS?<strong><span aria-label="Required">*</span></strong></label>
+        <input class="cssSelection" type="text" id="cssSelection" name="cssSelection" required>
     </p>
     
     <p>
-        Which of the following is a valid CSS comment?
-        <strong><span aria-label="Required">*</span></strong>
+        <label for="cssCommand">Which of the following is a valid CSS comment?<strong><span aria-label="Required">*</span></strong></label>
         <fieldset>
-            <select id="css-command" name="cssCommand" required>
+            <select id="cssCommand" name="cssCommand" required>
                 <option value="" disabled selected>Choose One...</option>
-                <option value="wRITE HERE">background-color</option>
-                <option value="WRITE HERE">font-size</option>
-                <option value="WRITE HERE">margin</option>
+                <option value="background-color">background-color</option>
+                <option value="font-size">font-size</option>
+                <option value="margin">margin</option>
             </select>
         </fieldset>
     </p>
     
     <p>
-         What is the bottom margin given this declaration?
-        <strong><span aria-label="Required">*</span></strong> 
+        <label for="bottomMargin">What is the bottom margin given this declaration?<strong><span aria-label="Required">*</span></strong></label>
         <h2>Margin: 10px 5px 15px;</h2>
-        <input type="text" name="bottomMargin" required>
+        <input type="text" id="bottomMargin" name="bottomMargin" required>
     </p>
+
+     
+     
     
     <p> 
         <button type="submit">Submit Quiz</button> 
