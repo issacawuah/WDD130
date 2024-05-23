@@ -1,0 +1,49 @@
+body{
+     margin: auto; 
+     padding: auto;
+}
+
+form{ 
+    background-color: rgba(124, 116, 116, 0.315);
+    margin: 0 auto; 
+    margin-top: 20px;
+    width: 400px;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+
+}
+h2{
+    background-color: rgb(12, 2, 2); 
+    width: 40%; 
+    font-size: 15px;
+    margin: 2px;
+    color: #ccc;
+    border: 2px;
+    padding: 1px;
+    
+} 
+#css-command{
+    width: 100%; 
+    height: 30px;
+} 
+
+input{
+    width: 100%; 
+    height: 30px;
+} 
+.cssSelection{
+    width: 100%; 
+    height: 80px;
+}
+h1{
+    font-size: 20px;  
+    text-align: center; 
+} 
+
+button{
+    background-color: blue; 
+    color: white; 
+    width: 100%; 
+    height: 40px;
+}
