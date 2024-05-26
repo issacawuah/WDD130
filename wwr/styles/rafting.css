@@ -137,11 +137,11 @@ section h2{
 
 
 footer {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* padding: 10px 20px; */
-    background-color: rgb(104, 36, 36);  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;  
 }
 
 .sociallinks {
@@ -170,20 +170,100 @@ footer p {
     
  }
 
-iframe {
-    background-color:1px solid #e7a516;
-    padding: left;
-    text-align: center;
-    margin: 2px;
-    width: 200px;
-    height: 100px;
+iframe { 
+    position: relative;  
+    width: 300px;
+    height: 200px;  
+    margin-right: 40px;  
+    margin-top: 500px; 
+    margin-bottom: 200px;
 }
 
-form {
-    background-color: #7a7574;
-    height: 90px;; 
-    width: 1000px;
+/* contact form */
+#contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* form elements */ 
+#contact-form{
+    position: relative; 
+    margin-top: 60px;  
+    float: right;
+}
+#contact-form form { 
+    display: flex; 
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact-form input[type="radio"],
+#contact-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#contact-form textarea {
+    height: 150px;
+}
+
+#contact-form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #45a049;
+}
+
+#contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
     text-align: center;
-    padding:right ;
-    margin: 0.25rem auto; 
+}
+
+#contact-form input[type="radio"] + label,
+#contact-form input[type="checkbox"] + label {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+#contact-form input[type="radio"]:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+
+.Employee{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    background-color: #e7990944;  
+    margin-top: 30px;
+    float: left;
+    
 }
