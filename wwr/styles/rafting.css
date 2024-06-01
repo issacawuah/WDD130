@@ -1,5 +1,5 @@
  /* Importing Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* The import statement is removed from here and added to the HTML head */
 
 :root {
     --primary-color: #db343c;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Updated to use Roboto font */
     margin: 0;
     padding: 0;
 }
@@ -172,7 +172,7 @@ p {
     font-weight: 100;
 }
 
-iframe {
+.google-map {
     position: relative;
     width: 300px;
     height: 200px;
