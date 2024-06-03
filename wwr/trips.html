@@ -1,58 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>  Awuah Isaac| WDD 130</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Awuah Isaac">
-    <meta name="description" content="Awuah Isaac, WDD 130, HTML and CSS quiz">
-    <link rel="stylesheet" href="/styles/trip.css">
+    <title>GH Rafting Site - Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description of your page goes here">
+    <meta name="author" content="Awuah isaac">
+    <link rel="stylesheet" type="text/css" media="screen" href="/wwr/styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 <body>
     <header>
-        <h1>Rafting Adventures</h1>
-    </header>
-    <section id="intro">
-        <p>Welcome to our rafting adventures! Discover the perfect trip for you, from family-friendly outings to thrilling whitewater experiences.</p>
-    </section>
-
-    <section class="trip-category">
-        <h2>Family Trips</h2>
-        <div class="trip">
-            <h3>Family Rafting Adventure</h3>
-            <p><strong>Duration:</strong> Half-day</p>
-            <p><strong>Difficulty Level:</strong> Easy</p>
-            <p><strong>Itinerary:</strong> Begin at Riverbank Park, enjoy calm waters and scenic views, stop for a picnic lunch, end at Riverside Camp.</p>
-            <p><strong>Scenery and Wildlife:</strong> Lush forests, gentle waterfalls, occasional deer and bird sightings.</p>
-            <div class="equipment">
-                <h4>Equipment Provided:</h4>
-                <ul>
-                    <li><strong>Rafts:</strong> Family-sized, comfortable seats</li>
-                    <li><strong>Safety Gear:</strong> Life jackets, helmets</li>
-                    <li><strong>Additional Gear:</strong> Paddles, dry bags</li>
-                </ul>
-            </div>
-            <div class="testimonial">
-                <p>"A perfect outing for our family! The kids loved it and we felt completely safe throughout the trip." - The Smith Family</p>
-            </div>
-            <a href="#" class="book-now">Book Now</a>
+        <div class="logo">
+            <img src="./images/logo.png" alt="site Logo">
         </div>
-    </section>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./trips.html">Trips</a>
+            <a href="./contact.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main> 
+        <section class="cta">
+            <h2>Contact Us for More Information</h2>
+            <p><a href="contact.html">Get in Touch</a></p>
+        </section>
 
-    <section class="trip-category">
-        <h2>Adventure Trips</h2>
-        <!-- Add more trips here similar to the Family Trip section -->
-    </section>
+        <!-- Trip Descriptions -->
+        <section class="trip-descriptions">
+            <article>
+                <h3>Trip 1: The Grand Canyon Adventure</h3>
+                <img src="/images/grand-canyon.jpg" alt="Grand Canyon">
+                <p>Experience the thrill of rafting through the Grand Canyon...</p>
+            </article>
+            <article>
+                <h3>Trip 2: Amazon Rainforest Expedition</h3>
+                <img src="/images/amazon.jpg" alt="Amazon Rainforest">
+                <p>Join us on an unforgettable journey through the Amazon Rainforest...</p>
+            </article>
+            <article>
+                <h3>Trip 3: Colorado River Rapids</h3>
+                <img src="/images/colorado-river.jpg" alt="Colorado River">
+                <p>Challenge yourself with the rapids of the Colorado River...</p>
+            </article>
+        </section>
 
-    <section class="trip-category">
-        <h2>Custom Trips</h2>
-        <!-- Add more trips here similar to the Family Trip section -->
-    </section>
-
+        <!-- Trips Table -->
+        <section class="trips-table">
+            <h2>Available Trips</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Location</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Grand Canyon Adventure</td>
+                        <td>Arizona, USA</td>
+                        <td>7 days</td>
+                        <td>$2000</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon Rainforest Expedition</td>
+                        <td>Brazil</td>
+                        <td>10 days</td>
+                        <td>$3000</td>
+                    </tr>
+                    <tr>
+                        <td>Colorado River Rapids</td>
+                        <td>Colorado, USA</td>
+                        <td>5 days</td>
+                        <td>$1500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main> 
     <footer>
-        <p>&copy; 2024 Rafting Adventures. All rights reserved.</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="./images/Facebook_svg" alt="facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="./images/Twitter_svg.webp" alt="twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="./images/instagram-svg.webp" alt="instagram">
+            </a>
+        </nav>
+        <p>©2024 Awuah Isaac Ghana, Sunyani</p>
     </footer>
 </body>
 </html>
